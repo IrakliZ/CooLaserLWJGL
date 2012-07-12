@@ -1,0 +1,18 @@
+import org.lwjgl.LWJGLException;
+
+
+public class CooLaserLWJGL {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		try{
+			Display.create();
+		}catch (LWJGLException e){
+			e.printStackTrace();
+		}
+
+	}
+
+}
