@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_LhbgwMxlEeGqfb0WDHjcVg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_LhbgwcxlEeGqfb0WDHjcVg" bindingContexts="_LhbgysxlEeGqfb0WDHjcVg">
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_LhbgwcxlEeGqfb0WDHjcVg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_LvApwcxlEeGqfb0WDHjcVg" label="%trimmedwindow.label.eclipseSDK" x="310" y="506" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_LhbgwcxlEeGqfb0WDHjcVg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_LvApwcxlEeGqfb0WDHjcVg" label="%trimmedwindow.label.eclipseSDK" x="198" y="44" width="1024" height="768">
     <tags>topLevel</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_LvApwcxlEeGqfb0WDHjcVg" selectedElement="_LvApwsxlEeGqfb0WDHjcVg" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_LvApwsxlEeGqfb0WDHjcVg" elementId="PerspectiveStack" containerData="7500" selectedElement="_L15U4MxlEeGqfb0WDHjcVg">
@@ -57,7 +57,7 @@
           <tags>persp.showIn:org.eclipse.ui.views.ResourceNavigator</tags>
           <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_L15U4cxlEeGqfb0WDHjcVg" selectedElement="_L1578MxlEeGqfb0WDHjcVg" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_L1578MxlEeGqfb0WDHjcVg" elementId="left" containerData="2500" selectedElement="_L1579MxlEeGqfb0WDHjcVg">
+            <children xsi:type="basic:PartStack" xmi:id="_L1578MxlEeGqfb0WDHjcVg" elementId="left" containerData="2500" selectedElement="_L1578cxlEeGqfb0WDHjcVg">
               <tags>newtablook</tags>
               <tags>org.eclipse.e4.primaryNavigationStack</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_L1578cxlEeGqfb0WDHjcVg" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_L1jWoMxlEeGqfb0WDHjcVg"/>
@@ -141,7 +141,7 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_L1o2MsxlEeGqfb0WDHjcVg" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources//icons/full/eview16/resource_persp.gif" tooltip="Workspace" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1342128581735&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_LQVCUMxoEeGV2-011FhNig" elementId="org.eclipse.ui.navigator.ProjectExplorer">
