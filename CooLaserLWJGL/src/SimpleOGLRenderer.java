@@ -1,4 +1,4 @@
-import org.lwjgl.opengl.GL11.*;
+import static org.lwjgl.opengl.GL11.*;
 import org.lwjgl.opengl.*;
 import org.lwjgl.*;
 
@@ -13,10 +13,20 @@ public class SimpleOGLRenderer {
 			e.printStackTrace();
 		}
 		
-		glMatrixMode(GL_PROJECTION);
-		
 		//Initialization OpenGL
+		glMatrixMode(GL_PROJECTION);
+		glLoadIdentity();
+		glOrtho(0, 640, 480, 0, 1, -1);
+		glMatrixMode(GL_MODELVIEW);
+		
 		while(!Display.isCloseRequested()){
+			
+			glBegin(GL_LINES);
+				glVertex2i(100, 100);
+				glVertex2i(200, 200);
+			glEnd();
+			
+			
 			Display.update();
 			Display.sync(60);
 		}
@@ -26,9 +36,7 @@ public class SimpleOGLRenderer {
 	
 	
 	public static void main(String[] args) {
-		System.out.println("hello");
 		new SimpleOGLRenderer();
-
 	}
 
 }

@@ -14,6 +14,7 @@ public class LWJGLHelloWorld {
 		}
 		
 		//Initialization OpenGL
+		
 		while(!Display.isCloseRequested()){
 			Display.update();
 			Display.sync(60);
